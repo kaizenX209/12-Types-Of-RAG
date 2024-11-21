@@ -8,3 +8,6 @@
 # Cache files
 __pycache__/
 *.pyc
+
+# Typescript files
+node_modules/

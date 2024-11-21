@@ -1,8 +1,8 @@
 # 12-Types-Of-RAG
 
-## Link post: https://www.turingpost.com/p/12-types-of-rag
+    - Link post: https://www.turingpost.com/p/12-types-of-rag
 
-# 12 Types of RAG - part 1
+# 12 Types of RAG - Part 1 - Original RAG
 
 1. Tài liệu:
    - Trong thư mục "documents", file "2005.11401v4_Original-RAG.pdf"
@@ -19,17 +19,17 @@
    - Cài đặt môi trường qua lệnh: `npm install`
    - Chạy file: `tsx Original_RAG-Langchain.ts`: File code với LangchainJS
 
-Note (cài đặt package thủ công):
-Python:
+# Note (cài đặt package thủ công):
 
-- `pip install transformers faiss-cpu torch`
-- `pip install sentencepiece`
-- `pip install langchain langchain-community langchain-openai beautifulsoup4`
-- `pip install python-dotenv langgraph`
+1. Python:
 
-Typescript:
+   - `pip install transformers faiss-cpu torch`
+   - `pip install sentencepiece`
+   - `pip install langchain langchain-community langchain-openai beautifulsoup4`
+   - `pip install python-dotenv langgraph`
 
-- `npm install -g tsx`
-- `sudo npm install -g tsx`
-- `npm init -y`
-- `npm install --save langchain @langchain/openai langchain @langchain/langgraph @langchain/core @langchain/community dotenv`
+2. Typescript:
+   - `npm install -g tsx`
+   - `sudo npm install -g tsx`
+   - `npm init -y`
+   - `npm install --save langchain @langchain/openai langchain @langchain/langgraph @langchain/core @langchain/community dotenv`
